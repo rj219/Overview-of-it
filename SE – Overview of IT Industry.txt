@@ -1,0 +1,183 @@
+1. What is software? What is software engineering?
+~  Software is considered to be collection of executable programming code, associated libraries and documentations. Software, when made for a specific requirement is called software 
+   product.Software refers to a collection of data or computer instructions that tell the computer how to work. This is in contrast to hardware, which is the physical devices that 
+   perform the work. Software includes all the programs and operating information used by a computer.
+~  Engineering on the other hand, is all about developing products, using well-defined, scientific principles and methods.Software Engineering is a disciplined and systematic approach to 
+   the design, development, maintenance, and retirement of software. It involves the application of engineering principles to software development in order to produce reliable, efficient
+   , and maintainable software systems. 
+
+
+2. Explain types ofsoftware?
+~  Software refers to a collection of data or computer instructions that tell the computer how to work. This is in contrast to hardware, which is the physical devices that perform the work.
+   Software includes all the programs and operating information used by a computer. It can be broadly classified into two categories:
+
+~  System Software: 
+	This type of software includes operating systems, device drivers, and utility programs that manage and support the computer's basic functions. Examples include Windows, 
+   macOS, Linux, and antivirus programs.
+
+~  Application Software: 
+	This type of software includes programs designed to perform specific tasks for users, such as word processors, spreadsheets, web browsers, and games. Examples 
+   include Microsoft Word, Excel, Google Chrome, and Adobe Photoshop.
+
+
+3. What is SDLC? Explain each phase of SDLC?
+~  Software development life cycle (SDLC).
+~  Planning:
+   Objective: Define the project scope, purpose, and feasibility.
+   Activities: Identify project goals, conduct feasibility studies, estimate resources, and create a project plan.
+   Outcome: Project plan, feasibility study, and preliminary cost estimates.
+
+   Requirements Analysis:
+   Objective: Gather and analyze business and user requirements.
+   Activities: Conduct interviews, surveys, and meetings to gather requirements. Document functional and non-functional requirements.
+   Outcome: Requirements specification document.
+
+   Design:
+   Objective: Design the architecture and components of the system.
+   Activities: Create high-level design (HLD) for the system architecture and detailed design (DD) for individual components. Define database structures, interface designs, and data 
+   flow diagrams.
+   Outcome: System design document, including HLD and DD.
+
+   Implementation (or Coding):
+   Objective: Convert the design into executable software.
+   Activities: Write code using appropriate programming languages and tools. Follow coding standards and practices.
+   Outcome: Source code and executable programs.
+
+   Testing:
+   Objective: Verify that the software functions correctly and meets the requirements.
+   Activities: Perform various types of testing such as unit testing, integration testing, system testing, and acceptance testing. Identify and fix defects.
+   Outcome: Test plans, test cases, and test results.
+
+   Deployment:
+   Objective: Make the software available to users.
+   Activities: Install and configure the software in the production environment. Conduct user training and support activities.
+   Outcome: Deployed software, user manuals, and training materials.
+
+   Maintenance:
+   Objective: Ensure the software continues to operate as expected and remains up-to-date.
+   Activities: Perform corrective, adaptive, and perfective maintenance. Fix bugs, update software for new requirements, and improve performance.
+   Outcome: Updated software and maintenance records.
+
+
+4. What is DFD? Create a DFD diagram on Flipkart
+~  data flow diagram (DFD)
+~  Here are the steps to create a DFD for Flipkart:
+
+Identify Components:
+Start by identifying the main components of the system. For Flipkart, these might include:
+Customer
+Product Catalog
+Shopping Cart
+Payment Gateway
+Order Processing
+Inventory Management
+Shipping and Delivery
+Define Processes:
+Next, define the processes that occur within the system. For example:
+Customer registration
+Browsing products
+Adding items to the cart
+Checkout process
+Payment processing
+Order fulfillment
+Data Flows:
+Determine how data flows between components. For instance:
+Customer data (name, address, etc.) flows from the Customer component to the Shopping Cart and Order Processing.
+Product information flows from the Product Catalog to the Shopping Cart.
+Order details flow from the Shopping Cart to Order Processing.
+External Entities:
+Identify external entities interacting with the system. These could be customers, suppliers, or other systems.
+Customers interact with the system through the Customer component.
+Suppliers might interact with the Inventory Management component.
+Data Stores:
+Consider where data is stored. In Flipkart’s case:
+Product details are stored in the Product Catalog.
+Order information is stored during the checkout process.
+Draw the Diagram:
+Use a tool like Creately1 to create the DFD. You can choose from various shapes (rectangles for processes, ovals for external entities, arrows for data flows) to represent the components and their connections.
+
+
+5. What is Flow chart? Create a flowchart to make addition of two numbers
+~  Certainly! A flowchart is a visual representation of a process or algorithm. It uses various shapes and arrows to depict the steps, decisions, and data flow within a system. Let’s
+   create a simple flowchart for adding two numbers:
+
+   Start: Begin the flowchart.
+   Declare Variables: Declare variables for the two numbers (let’s call them num1 and num2).
+   Read Input: Read the values of num1 and num2.
+   Calculate Sum: Add num1 and num2, storing the result in a variable (let’s call it sum).
+   Print Sum: Display the value of sum.
+   Stop: End the flowchart.
+
+  +-------------------+
+  |                   |
+  |    Start          |
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  | Declare num1, num2|
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  | Read num1, num2   |
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  | Calculate sum     |
+  | (sum = num1 + num2)|
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  | Print sum         |
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  |      Stop         |
+  |                   |
+  +-------------------+
+
+
+6. What is Use case Diagram? Create a use-case on bill payment on paytm.
+~  Use Case Diagram:
+   A Use Case Diagram is a visual representation of how users (actors) interact with a system and the specific functionalities (use cases) that the system provides. It helps us understand
+   system’s behavior from an end-user perspective and the relationships between different components.
+ 
+In a Use Case Diagram:
+
+Actors: Represent users or external entities interacting with the system.
+Use Cases: Represent specific functionalities or actions that the system performs.
+Relationships: Show how actors and use cases are related (e.g., an actor initiates a use case).
+Now, let’s create a simple use case for bill payment on Paytm:
+
+Actor:
+User: Represents the person using the Paytm app for bill payment.
+Use Case:
+Pay Bill: Represents the process of paying a bill using the Paytm app.
+Relationship:
+The User initiates the Pay Bill use case.
+  +-------------------+
+  |                   |
+  |    User           |
+  |                   |
+  +-------------------+
+           |
+           v
+  +-------------------+
+  |                   |
+  |   Pay Bill        |
+  |                   |
+  +-------------------+
